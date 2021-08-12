@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-playlist {
+	display: flex;
+	flex-direction: column;
+	/* max-width: 1200px; */
+}
+
+.track {
+	margin-top: 50px;
+	border: 1px solid gray;
+	display: flex;
+	justify-content: space-between;
+}
+
+.track img {
+	height: 100%;
+	max-width: auto;
+	display: block;
+}
