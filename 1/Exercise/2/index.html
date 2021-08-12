@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Create Playlist App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Create Playlist</h1>
+		<!-- Seach Form -->
+		<form class="form-search">
+			<input type="text" placeholder="Input Track" aria-label="input track" />
+			<button id="callTrack">Search Track</button>
+		</form>
+
+		<!-- Playlist Form -->
+		<form class="form-playlist">
+			<label for="title">Title</label>
+			<input type="text" name="title" id="title" />
+			<label for="description">Description</label>
+			<textarea name="description" id="description" cols="30" rows="10"></textarea>
+			<button id="submitPlaylist" type="submit">Create Playlist</button>
+		</form>
+
+		<!-- List Track -->
+		<div class="track">
+			<img class="track-image" src="https://picsum.photos/200/300" alt="" />
+			<div class="track-artist">
+				<h2>Artist</h2>
+				<p>Artist name</p>
+			</div>
+			<div class="track-title">
+				<h2>Title</h2>
+				<p>Title name</p>
+			</div>
+			<div class="track-album">
+				<h2>Album</h2>
+				<p>Album name</p>
+			</div>
+			<button>button</button>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
